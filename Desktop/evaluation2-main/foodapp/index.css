@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    background-color: #212121;
+}
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 4%;
+    padding-right: 4%;
+    border: 1px solid white;
+   
+
+    
+}
+#option{
+    display :flex;
+    justify-content: space-between;
+    margin: 1%;
+   
+    
+    
+}
+
+
+.head {
+    color: wheat;
+    text-decoration: none;
+    padding-left: 30px;
+    padding-right: 10px;
+}
+.head1 {
+    color:#FFCDD2;
+    text-decoration: none;
+    font-family: 'Henny Penny', cursive;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: repeat(4, 20%);
+    color:greenyellow;
+    text-align: center;
+    grid-gap : 5%;
+    box-sizing: border-box;
+   padding: 20px auto;
+   
+}
+#container :hover{
+    cursor: pointer;
+    color:white;
+    box-sizing: border-box;
+    font-size: 17px;
+}
